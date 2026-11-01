@@ -10,10 +10,8 @@
 (function () {
   'use strict';
 
-  // API 地址（自动识别同域或本地 3000 端口）
-  const API_BASE = window.location.origin.includes('localhost') || window.location.origin.includes('127.0.0.1')
-    ? `${window.location.origin}/api`
-    : 'http://localhost:3000/api';
+  // API 地址：改为同域访问
+  const API_BASE = `${window.location.origin}/api`;
 
   // 运行时状态
   const state = {
