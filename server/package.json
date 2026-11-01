@@ -1,0 +1,12 @@
+{
+  "name": "project-hub-server",
+  "version": "1.0.0",
+  "description": "Backend API server for Project Universe Hub connecting to MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.0"
+  }
+}
